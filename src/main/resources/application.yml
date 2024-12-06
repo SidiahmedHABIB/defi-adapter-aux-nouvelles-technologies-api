@@ -3,12 +3,7 @@ spring:
     name: my-resume-api
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: resume_db
-      username: root
-      password: root
-      authentication-database: admin
+      uri: mongodb+srv://my_resume:O3ezT3agSwfbdZsD@cluster0.x5nia.mongodb.net/my_database?retryWrites=true&w=majority&appName=Cluster0
   ai:
     openai:
       api-key:  ${OPENAI_API_KEY}
