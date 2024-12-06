@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: my-resume-api
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: resume_db
+      username: root
+      password: root
+      authentication-database: admin
+  ai:
+    openai:
+      api-key:  ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: ${OPENAI_CHAT_MODEL}
+          temperature: ${OPENAI_CHAT_TEMPERATURE:0}
+
+server:
+  port: 8088
+  servlet:
+    context-path: /api/v1/
+
+
+
+
+
+
+
