@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://20.3.248.15:4200/")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 
 public class AuthController {

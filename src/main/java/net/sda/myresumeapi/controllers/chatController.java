@@ -5,7 +5,7 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://20.3.248.15:4200/")
+@CrossOrigin(origins = "*")
 public class chatController {
 
     private ChatClient chatClient;

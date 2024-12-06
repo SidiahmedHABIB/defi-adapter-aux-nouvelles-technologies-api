@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/resumes")
-@CrossOrigin(origins = "http://20.3.248.15:4200/")
+@CrossOrigin(origins = "*")
 public class ResumeController {
     private final ResumeService resumeService;
     private final UserService userService;
