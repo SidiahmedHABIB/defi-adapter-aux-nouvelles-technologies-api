@@ -1,4 +1,4 @@
-/* package net.sda.myresumeapi.config;
+ package net.sda.myresumeapi.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -41,4 +41,4 @@ public class BeansConfig {
     }
 
 }
-*/
+
